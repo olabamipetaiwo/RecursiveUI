@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+  "target": "esnext",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "noEmit": true,
+    "strict": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "components/*": ["src/components/*"],
+      "common/*": ["src/components/common/*"],
+      "state/*": ["src/state/*"],
+      "state": ["src/state"],
+      "utils/*": ["src/utils/*"],
+      "utils": ["src/utils"],
+      "types/*": ["src/types/*"],
+      "assets/*": ["assets/*"],
+      "styles/*": ["src/styles*"]
+    },
+    "jsx": "react"
+  },
+  "include": [
+    "src",
+    "server",
+    "postcss.config.js",
+    "webpack.config.js"
+  ]
+}
